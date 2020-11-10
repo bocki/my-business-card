@@ -1,1 +1,93 @@
-<html><body>soon™</body></html>
+<html>
+<head>
+  <title>Florian Bock</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  body { 
+    font-family: 'Red Hat Text', -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    color: #222;
+    background-color: #fdfdfd;
+    font-size: 2.2vmax;
+    padding: 0.5em;
+  }
+  h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Red Hat Display', -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji; 
+    font-weight: 500;
+    margin-top: 0;
+  }
+
+  div { 
+    width: 100%; 
+    min-height: 50%; 
+  }
+
+  ul { list-style-type: none; margin-left: 0; padding: 0; }
+  li { display: block; }
+  svg { width: 1em; margin: 0 padding: 0; vertical-align: middle;}
+
+  a { 
+    color: #222; 
+    transition:color 0.1s linear;
+  }
+  a:hover { color: #468; }
+  a.tw:hover { color: #0ae !important; }
+  a.orf:hover {color: #58c !important; }
+
+  @media only screen and (min-width: 641px) {
+    div { 
+      max-width: 25em;
+      min-height: 50%; 
+      width: auto;
+    }
+
+    body {
+      align-items: center;
+      font-size: 1.6vmax;
+    }
+  }
+
+  @font-face {
+    font-family: 'Red Hat Text';
+    font-display: fallback;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Red Hat Text'), local('RedHatText-Regular'),
+         url('/fonts/red-hat-text-v3-latin-regular.woff2') format('woff2'),
+         url('/fonts/red-hat-text-v3-latin-regular.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Red Hat Display';
+    font-display: fallback;
+    font-style: normal;
+    font-weight: 500;
+    src: local('Red Hat Display Medium'), local('RedHatDisplay-Medium'),
+         url('/fonts/red-hat-display-v4-latin-500.woff2') format('woff2'),
+         url('/fonts/red-hat-display-v4-latin-500.woff') format('woff');
+  }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1>Florian Bock</h1>
+    <p>Currently writing for the website of Austria’s public broadcaster, <a class="orf" href="https://orf.at/">ORF.at</a>.</p>
+    <p>Covering Brexit, the pandemic and all things digital 🕹️.</p>
+    <ul>
+      <li>
+        <svg viewbox="100 100 600 700" xmlns="http://www.w3.org/2000/svg">
+          <path d="M679 239s-21 34-55 57c7 156-107 329-314 329-103 0-169-50-169-50s81 17 163-45c-83-5-103-77-103-77s23 6 50-2c-93-23-89-110-89-110s23 14 50 14c-84-65-34-148-34-148s76 107 228 116c-22-121 117-177 188-101 37-6 71-27 71-27s-12 41-49 61c30-2 63-17 63-17z"/>
+        </svg>
+        <a class="tw" href="https://twitter.com/bocki">@bocki</a>
+      </li>
+      <li>
+        PGP / Mail: <a href="http://pool.sks-keyservers.net/pks/lookup?op=vindex&search=0x409BDDC0459C4799">0x459C4799</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
